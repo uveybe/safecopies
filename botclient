@@ -1,0 +1,286 @@
+{
+  "error": {
+    "default": {
+      "title": "Ha ocurrido un problema",
+      "subtitle": "Inténtalo de nuevo y si el problema persiste, contacta con soporte",
+      "login": "Haz login de nuevo"
+    },
+    "internet-explorer": {
+      "title": "Tu navegador no está soportado",
+      "subtitle": "Para que tu experiencia sea la mejor posible no soportamos Internet Explorer, te recomendamos que descargues Google Chrome o Mozilla Firefox."
+    },
+    "config": {
+      "title": "Ha ocurrido un problema",
+      "subtitle": "No hemos podido obtener la configuración para poder arrancar la aplicación"
+    },
+    "multisession": "Hemos comprobado que has iniciado sesión en otro lugar y aún no soportamos eso. Sigue desde donde lo has abierto.",
+    "login": "Ha ocurrido un error al intentar iniciar su sesión, inténtelo de nuevo por favor",
+    "geolocation": {
+      "title": "Vaya, no hemos podido confirmar tu posición. Por favor, comprueba que permites a tu navegador compartir tu localización durante su uso.",
+      "instructions": "Para poder activarlo:",
+      "ios": {
+        "steps": "Ve a la aplicación ajustes.\nApartado privacidad.\nEntra en servicios de localización.\nBusca la aplicación de tu navegador y permite el acceso mientras esté en uso."
+      },
+      "android": {
+        "steps": "Abre la aplicación Ajustes del dispositivo.\nToca Seguridad y ubicación, a continuación Ubicación (si no aparece 'Seguridad y ubicación', toca Ubicación).\nActiva la opción Ubicación."
+      }
+    },
+    "property": "La propiedad no existe o no está disponible.",
+    "no-property": "Debes poner en la url el identificador de la propiedad que quieras reservar.",
+    "support": "Contacta con soporte si tienes alguna duda."
+  },
+  "login": {
+    "default": {
+      "title": "Bienvenido a visita.me",
+      "subtitle": "Utiliza tu cuenta de Google o Facebook para continuar con la reserva",
+      "google": "Continuar con Google",
+      "facebook": "Continuar con Facebook"
+    },
+    "not-enabled": {
+      "title": "Estamos en Beta privada",
+      "subtitle": "Y parece que aún no te hemos invitado a probar la experiencia.",
+      "link": "Login con otra cuenta"
+    },
+    "phone": {
+      "enter": {
+        "title": "Introduce tu número de teléfono para continuar",
+        "subtitle": "Recibirás un SMS para confirmar tu cuenta.",
+        "warning": "Mensaje libre de coste",
+        "action": {
+          "default": "Continuar",
+          "loading": "Validando..."
+        }
+      },
+      "token": {
+        "title": "Verifica tu identidad con tu código de seguridad",
+        "subtitle": "Introduce el código que encontraras en el SMS que te hemos enviado",
+        "error": "El código introducido no es válido o ha expirado y te hemos enviado otro de nuevo. Por favor, revisa tu teléfono e introduce el nuevo código",
+        "action": {
+          "default": "Continuar",
+          "loading": "Comprobando..."
+        }
+      },
+      "signup": {
+        "title": "Cuéntanos un par de cosas más sobre ti",
+        "subtitle": "Solo te pediremos estos datos una sola vez",
+        "email": "Introduce tu email",
+        "name": "Introduce tu nombre completo",
+        "action": {
+          "default": "Continuar",
+          "loading": "Guardando..."
+        }
+      }
+    }
+  },
+  "geolocation": {
+    "days": "Quedan {{days}} días para tu visita",
+    "day": "Queda {{days}} día para tu visita",
+    "hours": "Quedan {{hours}} horas para tu visita",
+    "hour": "Queda {{hours}} hora para tu visita",
+    "minutes-visit": "Quedan {{minutes}} min para tu visita",
+    "minutes": "Quedan {{minutes}} min para entrar",
+    "seconds": "Quedan {{seconds}} sec para entrar",
+    "unactive": "Tu visita no está activa",
+    "confirmation": "Posición confirmada",
+    "checked": "Comprobado a las {{time}}"
+  },
+  "header": {
+    "next": "Próximo",
+    "today": "Hoy",
+    "tomorrow": "Mañana",
+    "at": "a las",
+    "address": "Visita a {{address}}, {{floor}}"
+  },
+  "input": {
+    "placeholder": "Di algo..."
+  },
+  "datepicker": {
+    "day": "Día",
+    "hour": "Hora",
+    "title": "Selecciona una fecha",
+    "button": {
+      "label": "Reservar visita"
+    },
+    "other": "Elige tu fecha"
+  },
+  "cancel": {
+    "visit": "Cancelar visita...",
+    "responses": {
+      "late": "Llegaba tarde",
+      "another-date": "Necesito otra fecha",
+      "second-thought": "Me he arrepentido",
+      "changed-plan": "Cambio de planes"
+    }
+  },
+  "account": {
+    "title": "Tu cuenta",
+    "profile": {
+      "hello": "Hola {{name}}"
+    },
+    "visits": {
+      "title": "Tus visitas",
+      "none": "No hay visitas programadas"
+    }
+  },
+  "map": {
+    "close": "Confirmar posición",
+    "not-close": "Sitúate a menos de 100m de la entrada",
+    "title": "Confirma tu posición"
+  },
+  "call": {
+    "title": "Visita la propiedad",
+    "minutes": "Quedan {{minutes}} min para entrar",
+    "seconds": "Quedan {{seconds}} sec para entrar",
+    "doorway": {
+      "title": "Llama al telefonillo",
+      "body": "Llama al telefonillo de {{floor}} hasta que se abra la puerta. Ten en cuenta que puede tardar un par de segundos.",
+      "action-hint": "Confírmanos que has entrado",
+      "action": "Estoy dentro!"
+    },
+    "door": {
+      "title": "Abre la puerta de {{floor}}",
+      "body": "Sitúate frente a la puerta de la vivienda y pulsa el siguiente botón. Tras unos segundos, escucharás la cerradura abrirse y podrás abrir la puerta.",
+      "action-hint": {
+        "default": "Pulsa y espera unos segundos",
+        "opening": "Abriendo...",
+        "error": "Oh, algo no va bien. Inténtalo de nuevo"
+      },
+      "action": "Pulsa para abrir",
+      "help": "Ayuda"
+    }
+  },
+  "verification": {
+    "documents": {
+      "header": "Gracias {{name}}",
+      "subheader": "Con estos documentos podremos verificar tu identidad",
+      "dni": {
+        "front": {
+          "title": "Frontal del DNI",
+          "subtitle": "Donde aparece tu foto"
+        },
+        "back": {
+          "title": "Reverso del DNI",
+          "subtitle": "Donde aparece tu dirección"
+        }
+      },
+      "selfie": {
+          "title": "Un selfie",
+          "subtitle": "Sonríe!"
+      },
+      "warning": "Haz las fotos en un lugar bien iluminado y procura que estén enfocadas",
+      "action": "Continuar",
+      "status": {
+        "validated": "Documento validado",
+        "pending": "Documento en proceso de validación",
+        "loading": "Enviando documento...",
+        "error": "Ha habido un error. Inténtalo de nuevo"
+      }
+    },
+    "credit-card": {
+      "title": "¡Estamos a punto de acabar!",
+      "subtitle": "Si te gusta la vivienda podrás hacer una reserva con tu tarjeta",
+      "form": {
+        "number": "Número de tarjeta",
+        "name": "Titular de la tarjeta",
+        "ccv": "CCV",
+        "month": "MM",
+        "year": "AAAA",
+        "address": "Dirección",
+        "cp": "Código postal"
+      },
+      "action": "Continuar"
+    },
+    "success": {
+      "title": "¡Hemos terminado!",
+      "subtitle": "Enhorabuena, estás a punto de descubrir viviendas de manera independiente",
+      "body": ["Ahora nos toca trabajar a nosotros y verificar tu identidad.", "En menos de 48 horas recibirás un email y SMS. En ese momento tu cuenta estará lista para acceder y reservar tu primera visita."],
+      "action": "Salir"
+    },
+    "review": {
+      "title": "¡Casi hemos terminado!",
+      "subtitle": "Estás a punto de descubrir viviendas de manera independiente",
+      "body": ["Estamos trabajando en verificar tu identidad.", "En breve recibirás un email y SMS. En ese momento tu cuenta estará lista para acceder y reservar tu primera visita."],
+      "action": "Salir"
+    },
+    "rejected": {
+      "title": "Lo sentimos, en este momento no podemos darte acceso al servicio",
+      "body": "Pero no te preocupes, en breve te contactaremos para gestionar tu visita a la vivienda.",
+      "action": "Salir"
+    }
+  },
+  "visit": {
+    "response": "Ya he terminado!",
+    "minutes": "Quedan {{minutes}} min",
+    "seconds": "Quedan {{seconds}} sec",
+    "help": "Ayuda",
+    "action": "Acabar visita y salir",
+    "more-info": "Más info",
+    "property": {
+      "size": {
+        "title": "Superficie",
+        "terrace": "de terraza"
+      },
+      "supplies": {
+        "title": "Suministros"
+      },
+      "community-fees": {
+        "title": "Gastos de comunidad"
+      },
+      "construction-year": {
+        "title": "Año de construcción"
+      },
+      "parking": {
+        "title": "Garaje",
+        "included": "Incluído",
+        "not-included": "No incluído"
+      },
+      "price": {
+        "title": "Precio"
+      }
+    }
+  },
+  "location": {
+    "default": "Hemos preparado todo para tu visita. Lo primero que necesitamos es que confirmes que estás cerca de la vivienda."
+  },
+  "pre-visit": {
+    "title": "Disfruta de tu visita",
+    "body": "Si durante la visita, tienes alguna duda o quieres hacernos alguna pregunta, arriba tienes el <strong>botón de ayuda</strong> para ponerte en contacto con nosotros.",
+    "action": "Entendido!",
+    "help": "Ayuda"
+  },
+  "post-visit": {
+    "title": "Cierra la puerta al salir",
+    "body": {
+      "default": "Comprueba que las <strong>luces están apagadas</strong>, que no hay <strong>nadie dentro</strong> y que <strong>la puerta queda cerrada</strong>. Para abrir la puerta y salir, pulsa el botón. También tienes un <strong>pulsador de emergencia</strong> al lado de la puerta.",
+      "expired": "Comprueba que las <strong>luces están apagadas</strong>, que no hay <strong>nadie dentro</strong> y que <strong>la puerta queda cerrada</strong>. Para abrir la puerta y salir, pulsa el <strong>pulsador de emergencia</strong> al lado de la puerta."
+    },
+    "next": "Continuar",
+    "open": "Abrir para salir",
+    "close": "Comprobar",
+    "wait": "Saliendo...",
+    "action-next-hint": {
+      "default": "Tu visita ha excedido el tiempo"
+    },
+    "action-waiting-hint": {
+      "default": "En {{seconds}} sec comprobaremos si la puerta está cerrada"
+    },
+    "action-open-hint": {
+      "default": "Pulsa y espera unos segundos",
+      "opening": "Abriendo...",
+      "error": "Oh, algo no va bien. Inténtalo de nuevo"
+    },
+    "action-close-hint": {
+      "default": "Parece que la puerta no está cerrada correctamente",
+      "checking": "Comprobando...",
+      "error": "Oh, algo no va bien. Inténtalo de nuevo"
+    },
+    "help": "Ayuda"
+  },
+  "logout": "Desconectar",
+  "dates": {
+    "of": "de",
+    "at": "a las",
+    "today": "Hoy",
+    "tomorrow": "Mañana"
+  }
+}
