@@ -13,8 +13,8 @@
       "title": "Ha ocurrido un problema",
       "subtitle": "No hemos podido obtener la configuración para poder arrancar la aplicación"
     },
-    "multisession": "Hemos comprobado que has iniciado sesión en otro lugar y aún no soportamos eso. Sigue desde donde lo has abierto.",
-    "login": "Ha ocurrido un error al intentar iniciar su sesión, inténtelo de nuevo por favor",
+    "multisession": "Hemos comprobado que has iniciado sesión en otro lugar. Puedes continuar desde donde lo has abierto.",
+    "login": "Ha ocurrido un error al intentar iniciar sesión, inténtalo de nuevo por favor",
     "geolocation": {
       "title": "Vaya, no hemos podido confirmar tu posición. Por favor, comprueba que permites a tu navegador compartir tu localización durante su uso.",
       "instructions": "Para poder activarlo:",
@@ -31,7 +31,7 @@
   },
   "login": {
     "default": {
-      "title": "Bienvenido a visita.me",
+      "title": "Bienvenido a Visitame",
       "subtitle": "Utiliza tu cuenta de Google o Facebook para continuar con la reserva",
       "google": "Continuar con Google",
       "facebook": "Continuar con Facebook"
@@ -53,7 +53,7 @@
       },
       "token": {
         "title": "Verifica tu identidad con tu código de seguridad",
-        "subtitle": "Introduce el código que encontraras en el SMS que te hemos enviado",
+        "subtitle": "Introduce el código que encontrarás en el SMS que te hemos enviado",
         "error": "El código introducido no es válido o ha expirado y te hemos enviado otro de nuevo. Por favor, revisa tu teléfono e introduce el nuevo código",
         "action": {
           "default": "Continuar",
@@ -135,7 +135,7 @@
       "title": "Llama al telefonillo",
       "body": "Llama al telefonillo de {{floor}} hasta que se abra la puerta. Ten en cuenta que puede tardar un par de segundos.",
       "action-hint": "Confírmanos que has entrado",
-      "action": "Estoy dentro!"
+      "action": "¡Estoy dentro!"
     },
     "door": {
       "title": "Abre la puerta de {{floor}}",
@@ -231,8 +231,8 @@
       },
       "parking": {
         "title": "Garaje",
-        "included": "Incluído",
-        "not-included": "No incluído"
+        "included": "Incluido",
+        "not-included": "No incluido"
       },
       "price": {
         "title": "Precio"
@@ -262,17 +262,17 @@
       "default": "Tu visita ha excedido el tiempo"
     },
     "action-waiting-hint": {
-      "default": "En {{seconds}} sec comprobaremos si la puerta está cerrada"
+      "default": "En {{seconds}} segundos comprobaremos si la puerta está cerrada"
     },
     "action-open-hint": {
       "default": "Pulsa y espera unos segundos",
       "opening": "Abriendo...",
-      "error": "Oh, algo no va bien. Inténtalo de nuevo"
+      "error": "Algo no va bien... Inténtalo de nuevo"
     },
     "action-close-hint": {
       "default": "Parece que la puerta no está cerrada correctamente",
       "checking": "Comprobando...",
-      "error": "Oh, algo no va bien. Inténtalo de nuevo"
+      "error": "Algo no va bien... Inténtalo de nuevo"
     },
     "help": "Ayuda"
   },
